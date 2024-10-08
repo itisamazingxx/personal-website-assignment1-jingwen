@@ -66,5 +66,43 @@
     background-color: #b9c7f6;
 }
 
+@media (max-width: 600px) {
+    body {
+        font-family: Arial, sans-serif; 
+        margin: 0; 
+        padding: 20px; 
+    }
 
+    .projects-container {
+        display: flex; 
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+    }
 
+    .project1, .project2, .project3 {
+        flex: 1 1 300px; 
+        margin: 10px; 
+        background-color: #fff; 
+        border-radius: 10px; 
+        padding: 20px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    }
+
+    .project1-content, .project3-content {
+        line-height: 1.5; 
+        margin-bottom: 1rem; 
+    }
+
+    .project1-pic img {
+        max-width: 100%; 
+        height: auto; 
+    }
+
+    .projects-container {
+        flex-direction: column; 
+    }
+
+    .project1-content, .project3-content {
+        font-size: 1rem; 
+    }
+}
