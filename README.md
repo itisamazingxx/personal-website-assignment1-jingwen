@@ -1,6 +1,9 @@
 # Personal Website - Jingwen Hou
 ## CS5610 Assignment1
 
+### Website Link:
+https://itisamazingxx.github.io/personal-website-assignment1-jingwen/
+
 ### Answered Questions
 1. **What was the most challenging piece of this assignment? Did you find it easy or challenging to work with HTML and CSS? How long did this overall assignment take you?**
    - Making the website responsive for both web and mobile clients was somewhat challenging, especially for a beginner. While the knowledge of HTML and CSS itself isn't difficult, ensuring compatibility across both platforms can be tricky. The overall assignment took me about one day.
