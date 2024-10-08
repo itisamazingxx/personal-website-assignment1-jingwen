@@ -29,3 +29,24 @@
 .content {
     padding-top: 60px;
 }
+
+@media (max-width: 600px) {
+    .navbar {
+        display: flex;
+        flex-direction: row; 
+        justify-content: flex-start; 
+        padding: 10px; 
+    }
+
+    .nav-table {
+        display: flex;
+        flex-direction: row; 
+        width: auto; 
+    }
+
+    .nav-table a {
+        margin: 0 10px; 
+        width: auto; 
+        text-align: left; 
+    }
+}

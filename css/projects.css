@@ -53,7 +53,7 @@
 }
 
 @media (max-width: 600px) {
-    body {
+    .content {
         font-family: Arial, sans-serif; 
         margin: 0; 
         padding: 20px; 
