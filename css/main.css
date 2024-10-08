@@ -5,13 +5,11 @@ body {
         linear-gradient(to right, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
 }
 
-/* 导航栏设计 */
 .nav-table {
     list-style: none;
     display: flex;
 }
 
-/* 导航栏元素项中间间隔 */
 .nav-table li {
     margin-right: 30px;
 }
@@ -45,8 +43,8 @@ body {
     left: 20%;
     transform: translateY(-50%);
     background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px; /* 内边距 */
-    border-radius: 10px; /* 圆角 */
+    padding: 20px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 

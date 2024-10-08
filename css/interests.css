@@ -24,9 +24,9 @@
 .meimei-pic img,
 .snowboarding-pic img,
 .wine-pic img {
-    max-width: 400px; /* 统一最大宽度 */
-    height: auto; /* 保持比例 */
-    object-fit: cover; /* 保持图片比例，填充元素 */
+    max-width: 400px; 
+    height: auto; 
+    object-fit: cover; 
 }
 
 .interest-block {
@@ -53,11 +53,11 @@
 .meimei-content,
 .snowboarding-content,
 .wine-content {
-    font-size: 18px; /* 字体大小 */
-    color: #333; /* 字体颜色 */
-    margin-top: 10px; /* 内容与图片之间的间距 */
-    font-family: 'Arial', sans-serif; /* 字体样式 */
-    transition: color 0.3s ease; /* 添加颜色变化过渡效果 */
+    font-size: 18px; 
+    color: #333; 
+    margin-top: 10px; 
+    font-family: 'Arial', sans-serif;
+    transition: color 0.3s ease; 
 }
 
 .block1 {
@@ -79,4 +79,39 @@
 .block4 {
     grid-area: block4;
     margin-right: 75px;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        position: static; 
+        text-align: center; 
+        margin-bottom: 20px; 
+    }
+
+    .interests-container {
+        display: flex; 
+        flex-direction: column; 
+        padding: 0; 
+    }
+
+    .interest-block {
+        flex: 1; 
+        margin: 10px 0; 
+        max-width: 100%; 
+    }
+
+    .meimei-pic img,
+    .snowboarding-pic img,
+    .wine-pic img {
+        max-width: 100%; 
+        height: auto; 
+    }
+
+    .interest-title {
+        font-size: 18px; 
+    }
+
+    .interest-content {
+        font-size: 14px; 
+    }
 }
