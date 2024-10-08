@@ -14,20 +14,6 @@ body {
     }
 }
 
-.navbar {
-    position: absolute; 
-    top: 10px;
-    left: 10px; 
-    z-index: 1000;
-}
-
-.nav-table {
-    list-style-type: none;
-    padding: 0; 
-    margin: 0;
-    display: flex;
-}
-
 .contact-title {
     font-size: 36px;
     font-family: 'Cursive', sans-serif;

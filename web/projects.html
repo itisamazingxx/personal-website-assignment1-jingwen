@@ -2,55 +2,63 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="../css/projects.css">
+        <link rel="stylesheet" type="text/css" href="../css/navbar.css">
     </head>
 
     <body>
+        <!-- Nav Bar -->
         <nav class="navbar">
+            <div class="navbar-title">Jingwen's Website</div>
             <ul class="nav-table">
-                <li><a href="../index.html">Back</a></li>
+                <li><a href="../index.html">Main Page</a> </li>
+                <li><a href="projects.html" class="active">Projects</a></li
+                <li><a href="interests.html">Interests</a> </li>
+                <li><a href="contact.html">Contact Me</a></li>
             </ul>
         </nav>
 
-        <div class="projects-container">
-            <div class="project1">
-                <div class="project1-container">
-                    <!-- project1 content -->
-                    <div class="project1-content">
-                        <p1><strong>Experience</strong></p1>
+        <div class="content">
+            <div class="projects-container">
+                <div class="project1">
+                    <div class="project1-container">
+                        <!-- project1 content -->
+                        <div class="project1-content">
+                            <p1><strong>Experience</strong></p1>
+                            <br/>
+                            <p2>Ski Resort Vistors Distribution System Management</p2>
+                            <ul>
+                                <li>Implemented a multithreaded Java client using a dynamic thread pool management strategy to support high data upload and server load management, achieving a maximum throughput of 4500 requests per second for processing 200,000 requests.</li>
+                                <li>xxxxxxxx</li>
+                                <li>xxxxxxxx</li>
+                            </ul>
+                        </div>
+    
+                        <!-- project1 pic -->
+                        <div class="project1-pic">
+                            <img src="../pics/ecommerce.jpg">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="project2">
+                    <div class="project2-content">
+                        <img src="../pics/movie.jpg">
+                    </div>
+                </div>
+    
+                <div class="project3">
+                    <div class="project3-content">
+                        <p1><strong>Other Highlight Projects</strong></p1>
                         <br/>
-                        <p2>Ski Resort Vistors Distribution System Management</p2>
+                        <p2>Amazon Movie Review Rating Model Prediction</p2>
                         <ul>
-                            <li>Implemented a multithreaded Java client using a dynamic thread pool management strategy to support high data upload and server load management, achieving a maximum throughput of 4500 requests per second for processing 200,000 requests.</li>
-                            <li>xxxxxxxx</li>
-                            <li>xxxxxxxx</li>
+                            <li>Established models using machine learning methods such as logistic regression, random forest, support vector machine, and linear regression to predict ratings based on the dataset; compared models and selected the model with the least Mean Square Error.</li>
+                            <li>xxxxx</li>
                         </ul>
                     </div>
-
-                    <!-- project1 pic -->
-                    <div class="project1-pic">
-                        <img src="../pics/ecommerce.jpg">
-                    </div>
                 </div>
             </div>
-
-            <div class="project2">
-                <div class="project2-content">
-                    <img src="../pics/movie.jpg">
-                </div>
-            </div>
-
-            <div class="project3">
-                <div class="project3-content">
-                    <p1><strong>Other Highlight Projects</strong></p1>
-                    <br/>
-                    <p2>Amazon Movie Review Rating Model Prediction</p2>
-                    <ul>
-                        <li>Established models using machine learning methods such as logistic regression, random forest, support vector machine, and linear regression to predict ratings based on the dataset; compared models and selected the model with the least Mean Square Error.</li>
-                        <li>xxxxx</li>
-                    </ul>
-                </div>
-            </div>
-
         </div>
+
     </body>
 </html>

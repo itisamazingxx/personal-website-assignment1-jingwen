@@ -1,0 +1,31 @@
+.navbar {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    background-color: #333; 
+    color: white; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    z-index: 1000; 
+    transition: background-color 0.3s ease; 
+}
+
+.nav-table {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-table a {
+    color: white; 
+    text-decoration: none; 
+    transition: color 0.3s ease;
+    margin: 0 15px; 
+}
+
+.content {
+    padding-top: 60px;
+}
