@@ -1,0 +1,70 @@
+.navbar {
+    position: absolute; 
+    top: 10px;
+    left: 10px; 
+    z-index: 1000;
+}
+
+.nav-table {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+    display: flex;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-areas:
+        "project1 project1"
+        "project2 project3";
+    padding: 20px;
+}
+
+.project1-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.project1-content {
+    padding: 20px;
+}
+
+.project1-pic {
+    padding: 50px;
+    text-align: center;
+}
+
+.project1-pic img {
+    max-width: 400px;
+}
+
+.project2-content {
+    display: flex; 
+    align-items: center;
+}
+
+.project2-content img {
+    max-width: 600px;
+    height: auto;
+}
+
+.project3-content {
+    padding: 20px;
+}
+
+.project1 {
+    grid-area: project1;
+    background-color: #fadded;
+}
+
+.project2 {
+    grid-area: project2;
+}
+
+.project3 {
+    grid-area: project3;
+    background-color: #b9c7f6;
+}
+
+
+
