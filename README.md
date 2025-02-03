@@ -10,14 +10,9 @@ https://itisamazingxx.github.io/personal-website-assignment1-jingwen/
 
 2. **What decisions did you make when you made your site mobile-friendly?**
    - I chose to display images and content separately, allowing users to scroll down. This approach helps improve navigation, especially when there is a lot of content to browse through.
-   - (If I can express my meaning in 2 sentences why we need write 3?????)
 
 3. **What did you take into account when you developed the design of your website? Is there anything that you’re particularly proud of?**
    - Don't have anything specific.
-   - Don't have anything specific.
-   - Don't have anything specific.
-   - Why we have to answer at least 3 sentences for this question????
 
 4. **Given more time or resources, what additional features would you add to your site in the future?**
    - Not decided yet. Not decided yet. (May come up with more ideas as the class continues.)
-   - Why we have to answer at least 3 sentences for this question????
